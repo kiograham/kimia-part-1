@@ -1,53 +1,62 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indikator pH Alami dari Tumbuhan</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indikator pH Alami dari Tumbuhan</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Indikator pH Alami dari Tumbuhan 🧪</h1>
-        <p>Eksplorasi perubahan warna ajaib dari berbagai ekstrak tumbuhan!</p>
-    </header>
+    <header>
+        <h1>Indikator pH Alami dari Tumbuhan 🧪</h1>
+        <p>Eksplorasi perubahan warna ajaib dari berbagai ekstrak tumbuhan!</p>
+    </header>
 
-    <main>
-        <section class="experiment-section">
-            <h2>Eksperimen Interaktif</h2>
-            <div class="search-group">
-                <input type="text" id="search-input" placeholder="Cari tanaman...">
-            </div>
-            <div class="indicator-gallery">
-                <span class="indicator-text-item active" data-indicator="kubis-merah">Kubis Merah</span>
-                <span class="indicator-text-item" data-indicator="bunga-sepatu">Bunga Sepatu</span>
-                <span class="indicator-text-item" data-indicator="ubi-ungu">Ubi Ungu</span>
-                <span class="indicator-text-item" data-indicator="mawar-merah">Bunga Mawar Merah</span>
-                <span class="indicator-text-item" data-indicator="anggur-ungu">Kulit Anggur Ungu</span>
-                <span class="indicator-text-item" data-indicator="kunyit">Kunyit</span>
-                <span class="indicator-text-item" data-indicator="bunga-bougenville">Bunga Bougenville</span>
-                <span class="indicator-text-item" data-indicator="jambu-biji-merah">Jambu Biji Merah</span>
-                <span class="indicator-text-item" data-indicator="rosela">Kelopak Bunga Rosela</span>
-                <span class="indicator-text-item" data-indicator="bunga-telang">Bunga Telang</span>
-                <span class="indicator-text-item" data-indicator="kulit-manggis">Kulit Manggis</span>
-                <span class="indicator-text-item" data-indicator="bayam-merah">Daun Bayam Merah</span>
-            </div>
-            
-            <div class="input-group">
-                <label for="ph-input">Masukkan Nilai pH (1-14):</label>
-                <input type="number" id="ph-input" min="1" max="14" value="7">
-            </div>
-            <button id="check-btn">Lihat Perubahan Warna</button>
-            <div class="result-container">
-                <div id="color-box" class="color-box"></div>
-                <p id="result-text">Klik nama indikator untuk melihat perubahannya.</p>
-            </div>
-        </section>
+    <main>
+        <section class="experiment-section">
+            <h2>Eksperimen Interaktif</h2>
+            <div class="search-group">
+                <input type="text" id="search-input" placeholder="Cari tanaman...">
+            </div>
+            <div class="indicator-gallery">
+                <span class="indicator-text-item active" data-indicator="kubis-merah">Kubis Merah</span>
+                <span class="indicator-text-item" data-indicator="bunga-sepatu">Bunga Sepatu</span>
+                <span class="indicator-text-item" data-indicator="ubi-ungu">Ubi Ungu</span>
+                <span class="indicator-text-item" data-indicator="mawar-merah">Bunga Mawar Merah</span>
+                <span class="indicator-text-item" data-indicator="anggur-ungu">Kulit Anggur Ungu</span>
+                <span class="indicator-text-item" data-indicator="kunyit">Kunyit</span>
+                <span class="indicator-text-item" data-indicator="bunga-bougenville">Bunga Bougenville</span>
+                <span class="indicator-text-item" data-indicator="jambu-biji-merah">Jambu Biji Merah</span>
+                <span class="indicator-text-item" data-indicator="rosela">Kelopak Bunga Rosela</span>
+                <span class="indicator-text-item" data-indicator="bunga-telang">Bunga Telang</span>
+                <span class="indicator-text-item" data-indicator="kulit-manggis">Kulit Manggis</span>
+                <span class="indicator-text-item" data-indicator="bayam-merah">Daun Bayam Merah</span>
+                <span class="indicator-text-item" data-indicator="lemon">Lemon</span>
+                <span class="indicator-text-item" data-indicator="teh-hitam">Teh Hitam</span>
+                <span class="indicator-text-item" data-indicator="daun-pandan">Daun Pandan</span>
+                <span class="indicator-text-item" data-indicator="kulit-bawang-merah">Kulit Bawang Merah</span>
+                <span class="indicator-text-item" data-indicator="buah-naga-merah">Buah Naga Merah</span>
+                <span class="indicator-text-item" data-indicator="kembang-sepatu-putih">Kembang Sepatu Putih</span>
+                <span class="indicator-text-item" data-indicator="bunga-rosela-merah">Bunga Rosela Merah</span>
+                <span class="indicator-text-item" data-indicator="buah-bit-merah">Buah Bit Merah</span>
+                <span class="indicator-text-item" data-indicator="daun-ubi-jalar-ungu">Daun Ubi Jalar Ungu</span>
+            </div>
+            
+            <div class="input-group">
+                <label for="ph-input">Masukkan Nilai pH (1-14):</label>
+                <input type="number" id="ph-input" min="1" max="14" value="7">
+            </div>
+            <button id="check-btn">Lihat Perubahan Warna</button>
+            <div class="result-container">
+                <div id="color-box" class="color-box"></div>
+                <p id="result-text">Klik nama indikator untuk melihat perubahannya.</p>
+            </div>
+        </section>
 
-        <section class="info-section">
+        <section class="info-section">
     <h2>Panduan Perubahan Warna</h2>
-    <h3>Kubis Merah</h3>
+    <h3>Kubis Merah</h3>  
     <ul>
         <li><strong>pH 1:</strong> Merah</li>
         <li><strong>pH 2:</strong> Merah muda</li>
@@ -268,13 +277,149 @@
         <li><strong>pH 13:</strong> Kuning</li>
         <li><strong>pH 14:</strong> Kuning</li>
     </ul>
+    <h3>Teh Hitam</h3>
+    <ul>
+        <li><strong>pH 1:</strong> Kuning kecoklatan</li>
+        <li><strong>pH 2:</strong> Kuning kecoklatan</li>
+        <li><strong>pH 3:</strong> Kuning kecoklatan</li>
+        <li><strong>pH 4:</strong> Kuning kecoklatan</li>
+        <li><strong>pH 5:</strong> Kuning kecoklatan</li>
+        <li><strong>pH 6:</strong> Kuning kecoklatan</li>
+        <li><strong>pH 7:</strong> Coklat muda</li>
+        <li><strong>pH 8:</strong> Coklat</li>
+        <li><strong>pH 9:</strong> Coklat tua</li>
+        <li><strong>pH 10:</strong> Coklat tua</li>
+        <li><strong>pH 11:</strong> Coklat kemerahan</li>
+        <li><strong>pH 12:</strong> Coklat kemerahan</li>
+        <li><strong>pH 13:</strong> Coklat kemerahan</li>
+        <li><strong>pH 14:</strong> Coklat kemerahan</li>
+    </ul>
+    <h3>Daun Pandan</h3>
+    <ul>
+        <li><strong>pH 1:</strong> Hijau kekuningan (pudar)</li>
+        <li><strong>pH 2:</strong> Hijau pudar</li>
+        <li><strong>pH 3:</strong> Hijau pudar</li>
+        <li><strong>pH 4:</strong> Hijau pudar</li>
+        <li><strong>pH 5:</strong> Hijau pudar</li>
+        <li><strong>pH 6:</strong> Hijau</li>
+        <li><strong>pH 7:</strong> Hijau</li>
+        <li><strong>pH 8:</strong> Hijau</li>
+        <li><strong>pH 9:</strong> Hijau tua</li>
+        <li><strong>pH 10:</strong> Hijau tua</li>
+        <li><strong>pH 11:</strong> Hijau tua</li>
+        <li><strong>pH 12:</strong> Hijau tua</li>
+        <li><strong>pH 13:</strong> Hijau tua</li>
+        <li><strong>pH 14:</strong> Hijau tua</li>
+    </ul>
+    <h3>Kulit Bawang Merah</h3>
+    <ul>
+        <li><strong>pH 1:</strong> Merah</li>
+        <li><strong>pH 2:</strong> Merah</li>
+        <li><strong>pH 3:</strong> Merah muda</li>
+        <li><strong>pH 4:</strong> Merah muda</li>
+        <li><strong>pH 5:</strong> Merah muda</li>
+        <li><strong>pH 6:</strong> Ungu kebiruan</li>
+        <li><strong>pH 7:</strong> Ungu kebiruan</li>
+        <li><strong>pH 8:</strong> Hijau kekuningan</li>
+        <li><strong>pH 9:</strong> Hijau</li>
+        <li><strong>pH 10:</strong> Hijau</li>
+        <li><strong>pH 11:</strong> Hijau tua</li>
+        <li><strong>pH 12:</strong> Hijau tua</li>
+        <li><strong>pH 13:</strong> Hijau tua</li>
+        <li><strong>pH 14:</strong> Hijau tua</li>
+    </ul>
+    <h3>Buah Naga Merah</h3>
+    <ul>
+        <li><strong>pH 1:</strong> Merah cerah</li>
+        <li><strong>pH 2:</strong> Merah cerah</li>
+        <li><strong>pH 3:</strong> Merah cerah</li>
+        <li><strong>pH 4:</strong> Merah cerah</li>
+        <li><strong>pH 5:</strong> Merah tua</li>
+        <li><strong>pH 6:</strong> Merah tua</li>
+        <li><strong>pH 7:</strong> Merah tua</li>
+        <li><strong>pH 8:</strong> Biru kehijauan</li>
+        <li><strong>pH 9:</strong> Hijau</li>
+        <li><strong>pH 10:</strong> Hijau</li>
+        <li><strong>pH 11:</strong> Hijau tua</li>
+        <li><strong>pH 12:</strong> Hijau tua</li>
+        <li><strong>pH 13:</strong> Hijau tua</li>
+        <li><strong>pH 14:</strong> Hijau tua</li>
+    </ul>
+    <h3>Kembang Sepatu Putih</h3>
+    <ul>
+        <li><strong>pH 1:</strong> Kuning muda</li>
+        <li><strong>pH 2:</strong> Kuning muda</li>
+        <li><strong>pH 3:</strong> Kuning muda</li>
+        <li><strong>pH 4:</strong> Kuning muda</li>
+        <li><strong>pH 5:</strong> Kuning muda</li>
+        <li><strong>pH 6:</strong> Kuning muda</li>
+        <li><strong>pH 7:</strong> Kuning cerah</li>
+        <li><strong>pH 8:</strong> Kuning cerah</li>
+        <li><strong>pH 9:</strong> Kuning cerah</li>
+        <li><strong>pH 10:</strong> Kuning cerah</li>
+        <li><strong>pH 11:</strong> Kuning cerah</li>
+        <li><strong>pH 12:</strong> Kuning cerah</li>
+        <li><strong>pH 13:</strong> Kuning cerah</li>
+        <li><strong>pH 14:</strong> Kuning cerah</li>
+    </ul>
+    <h3>Bunga Rosela Merah</h3>
+    <ul>
+        <li><strong>pH 1:</strong> Merah muda</li>
+        <li><strong>pH 2:</strong> Merah muda</li>
+        <li><strong>pH 3:</strong> Merah muda</li>
+        <li><strong>pH 4:</strong> Merah keunguan</li>
+        <li><strong>pH 5:</strong> Merah keunguan</li>
+        <li><strong>pH 6:</strong> Merah keunguan</li>
+        <li><strong>pH 7:</strong> Merah keunguan</li>
+        <li><strong>pH 8:</strong> Hijau kekuningan</li>
+        <li><strong>pH 9:</strong> Hijau</li>
+        <li><strong>pH 10:</strong> Hijau</li>
+        <li><strong>pH 11:</strong> Hijau tua</li>
+        <li><strong>pH 12:</strong> Hijau tua</li>
+        <li><strong>pH 13:</strong> Hijau tua</li>
+        <li><strong>pH 14:</strong> Hijau tua</li>
+    </ul>
+    <h3>Buah Bit Merah</h3>
+    <ul>
+        <li><strong>pH 1:</strong> Merah cerah</li>
+        <li><strong>pH 2:</strong> Merah cerah</li>
+        <li><strong>pH 3:</strong> Merah cerah</li>
+        <li><strong>pH 4:</strong> Merah keunguan</li>
+        <li><strong>pH 5:</strong> Merah keunguan</li>
+        <li><strong>pH 6:</strong> Merah keunguan</li>
+        <li><strong>pH 7:</strong> Merah keunguan</li>
+        <li><strong>pH 8:</strong> Kuning keemasan</li>
+        <li><strong>pH 9:</strong> Kuning keemasan</li>
+        <li><strong>pH 10:</strong> Kuning keemasan</li>
+        <li><strong>pH 11:</strong> Coklat</li>
+        <li><strong>pH 12:</strong> Coklat</li>
+        <li><strong>pH 13:</strong> Coklat</li>
+        <li><strong>pH 14:</strong> Coklat</li>
+    </ul>
+    <h3>Daun Ubi Jalar Ungu</h3>
+    <ul>
+        <li><strong>pH 1:</strong> Merah</li>
+        <li><strong>pH 2:</strong> Merah</li>
+        <li><strong>pH 3:</strong> Merah</li>
+        <li><strong>pH 4:</strong> Ungu</li>
+        <li><strong>pH 5:</strong> Ungu</li>
+        <li><strong>pH 6:</strong> Ungu</li>
+        <li><strong>pH 7:</strong> Biru keunguan</li>
+        <li><strong>pH 8:</strong> Hijau kekuningan</li>
+        <li><strong>pH 9:</strong> Hijau</li>
+        <li><strong>pH 10:</strong> Hijau</li>
+        <li><strong>pH 11:</strong> Hijau tua</li>
+        <li><strong>pH 12:</strong> Hijau tua</li>
+        <li><strong>pH 13:</strong> Hijau tua</li>
+        <li><strong>pH 14:</strong> Hijau tua</li>
+    </ul>
 </section>
-    </main>
+    </main>
 
-    <footer>
-        <p>&copy; 2024 Eksperimen Kimia Sederhana</p>
-    </footer>
+    <footer>
+        <p>&copy; 2024 Eksperimen Kimia Sederhana</p>
+    </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
